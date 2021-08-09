@@ -1,0 +1,6 @@
+User-Agent: *
+Disallow: 
+Disallow: /contacto.html
+
+Sitemap: https://descartablesdelmarsc.000webhostapp.com/sitemap.xml
+google-site-verification=3XCr-mbICSayoGoLwTjAhtd2PQ53H30ej_RV-F7C-ls
