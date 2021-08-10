@@ -152,6 +152,7 @@ footer {
   width: 100%;
   padding-bottom: 8px;
   margin-top: 10px;
+  width: 100%;
 }
 footer .footer__a {
   color: salmon;
@@ -293,4 +294,38 @@ article .article__div {
   background-image: url("../img/envios.jpg");
   height: 20%;
   width: 20%;
+}
+
+.accordion-item {
+  background-color: #fcc2bc;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.accordion-item h2 :hover {
+  color: salmon;
+}
+
+.accordion-header :hover {
+  background-color: #802222;
+}
+
+div .flexImg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+div .flexImg .imgAcordeon {
+  height: 150px;
+  width: 150px;
+}
+
+.flexCards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.flexCards .card {
+  margin: 2%;
 }/*# sourceMappingURL=styles.css.map */
