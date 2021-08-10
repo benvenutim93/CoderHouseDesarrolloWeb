@@ -357,12 +357,13 @@ article{
 div .flexImg{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 
     .imgAcordeon{
         height: 150px;
         width: 150px;
+        margin-bottom: 1rem;
     }
 }
 .flexCards{
