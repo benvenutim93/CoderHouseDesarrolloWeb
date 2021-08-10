@@ -8,6 +8,7 @@
 
 
 <url>
+<<<<<<< HEAD
   <loc>https://descartablesdelmarsc.000webhostapp.com/</loc>
   <lastmod>2021-08-09T20:25:17+00:00</lastmod>
   <priority>1.00</priority>
@@ -35,6 +36,40 @@
 <url>
   <loc>https://descartablesdelmarsc.000webhostapp.com/pages/contacto.html</loc>
   <lastmod>2021-08-09T20:25:17+00:00</lastmod>
+=======
+  <loc>https://descartablesdelmar.000webhostapp.com/</loc>
+  <lastmod>2021-08-04T01:25:20+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://descartablesdelmar.000webhostapp.com/index.html</loc>
+  <lastmod>2021-08-04T01:25:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://descartablesdelmar.000webhostapp.com/pages/papelera.html</loc>
+  <lastmod>2021-08-04T01:25:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://descartablesdelmar.000webhostapp.com/pages/cotillon.html</loc>
+  <lastmod>2021-08-04T01:25:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://descartablesdelmar.000webhostapp.com/pages/todoSuelto.html</loc>
+  <lastmod>2021-08-04T01:25:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://descartablesdelmar.000webhostapp.com/pages/servicios.html</loc>
+  <lastmod>2021-08-04T01:25:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://descartablesdelmar.000webhostapp.com/pages/contacto.html</loc>
+  <lastmod>2021-08-04T01:25:20+00:00</lastmod>
+>>>>>>> 6308dd9823d6e9638d0015e7f7c12cb71b099fb7
   <priority>0.80</priority>
 </url>
 
