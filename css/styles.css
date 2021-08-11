@@ -25,6 +25,36 @@ body header .header__h1 {
   font-family: "Dancing Script", cursive;
   text-shadow: 3px 3px 4px #FFF;
   font-size: calc(1.375rem + 4.5vw);
+  -webkit-animation-name: efectoOpacidad;
+          animation-name: efectoOpacidad;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+@-webkit-keyframes efectoOpacidad {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes efectoOpacidad {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 body header .header__flexHeader {
   flex-wrap: wrap;
@@ -82,6 +112,11 @@ div .div__a {
   color: salmon;
   font-size: 40px;
   font-family: "Dancing Script", cursive;
+  transition: all 2s;
+}
+div .div__a:hover {
+  color: #802222;
+  width: 250px;
 }
 div .divCuadrado {
   background-color: antiquewhite;
@@ -119,10 +154,12 @@ div .imgLocal {
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 2;
-  grid-row-end: 3;
-  background-image: url(../img/descartablesDelMar.jfif);
-  background-size: cover;
-  background-position: center;
+}
+div .imgLocal .imgLocal--index {
+  width: 100%;
+  height: 100%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 div .flexColumn {
   display: flex;
@@ -138,6 +175,9 @@ div .divColumn {
   padding: 5px;
   border-radius: 10px;
   box-shadow: 5px -2px 30px -2px salmon;
+}
+div .imgClass {
+  margin: 1%;
 }
 div .imgClass :hover {
   transform: scale(1.5, 1.5);
@@ -251,6 +291,11 @@ h2 .h2--subtituloTodoSuelto {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
+}
+.flex .video {
+  width: 18em;
+  height: 18em;
+  justify-self: center;
 }
 
 .contacto {

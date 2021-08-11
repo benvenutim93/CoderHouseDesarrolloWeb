@@ -33,6 +33,15 @@ $fontSize : 1rem;
                 font-family: 'Dancing Script', cursive;
                 text-shadow: 3px 3px 4px#FFF;
                 font-size: calc(1.375rem + 4.5vw);
+                animation-name: efectoOpacidad;
+                animation-timing-function: ease-in;
+                animation-duration: 2s;
+                animation-delay: 0s;
+            }
+            @keyframes efectoOpacidad {
+                0%{ opacity: 0 ; }
+                50%{ opacity: 0.5; }
+                100%{ opacity: 1;}
 
             }
 
@@ -102,7 +111,13 @@ $fontSize : 1rem;
         .div__a{
             color: salmon;
             font-size: 40px;
-            font-family: 'Dancing Script', cursive;
+            font-family: 'Dancing Script', cursive;      
+            transition: all 2s;     
+        }
+
+        .div__a:hover{
+            color:rgb(128, 34, 34);
+            width: 250px;
         }
 
         .divCuadrado{
@@ -137,17 +152,19 @@ $fontSize : 1rem;
             grid-column-end: 5;
             grid-row-start: 1;
             grid-row-end: 3;
+       
         }
         .imgLocal{
             grid-column-start: 3;
             grid-column-end: 4;
             grid-row-start: 2;
-            grid-row-end: 3;
-        
-            background-image: url(../img/descartablesDelMar.jfif);
-            background-size: cover;
-            background-position: center;
-        
+            
+            .imgLocal--index{
+                width: 100%;
+                height: 100%;
+                padding-top:2%;
+                padding-bottom:2%;
+            }
         }
         .flexColumn{
             display: flex;
@@ -164,11 +181,16 @@ $fontSize : 1rem;
             border-radius: 10px;
             box-shadow: 5px -2px 30px -2px salmon;
         }
+        
+        .imgClass{
+            margin: 1%;
+        }
         .imgClass :hover{
             transform: scale(1.5,1.5);
         }
     }
 
+    
     footer{
         background-color: antiquewhite;
         text-align: center;
@@ -288,6 +310,12 @@ $fontSize : 1rem;
             flex-direction: row;
             justify-content: center;
             flex-wrap: wrap;
+
+            .video{
+                width: 18em;
+                height: 18em;
+                justify-self: center;
+            }
         }
         .contacto{
             padding: 15px;
